@@ -1,3 +1,7 @@
+"""
+Sum of even Fibonacci Sequence
+"""
+
 n=int(input("Enter the number of fibonacci sequence: "))
 f_num=0
 s_num=1
