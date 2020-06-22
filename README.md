@@ -1,2 +1,2 @@
-# CSS
-Algorithmic Problems
+# CSS-Weekly
+Weekly Algorithmic Problems
