@@ -1,4 +1,5 @@
 from datetime import date
+from time import process_time
 def CountingSundays():
     numSun=0
     for year in range(1901,2001):
@@ -12,5 +13,13 @@ def CountingSundays():
     print("#                                                         #")
     print("###########################################################")
 
+    print("\n {:.3f} seconds".format(process_time()))
 
-CountingSundays()
+    print("\n {%1.2f} seconds"%(process_time()))
+
+if __name__=="__main__":
+    print(__name__)
+    CountingSundays()
+else:
+    print(__name__)
+    print("Bruuuuuuuuuuuuhhh!")

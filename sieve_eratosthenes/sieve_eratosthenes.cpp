@@ -11,9 +11,9 @@ public:
     void list(int n)
     {
         int num = 2;
-        primenums.resize(n - 1);
+     primenums.resize(n - 1);
         for (int i = 0; i < primenums.size(); i++)
-        {
+      {
             primenums[i] = i + 2;
         }
         int it{2};
